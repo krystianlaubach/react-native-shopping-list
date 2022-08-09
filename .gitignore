@@ -70,3 +70,6 @@ buck-out/
 # Ruby / CocoaPods
 /ios/Pods/
 /vendor/bundle/
+
+# Temp
+App_back.tsx

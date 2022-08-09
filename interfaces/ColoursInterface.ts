@@ -5,6 +5,7 @@ interface ColoursInterface {
     dark: string,
     darker: string,
     black: string,
+    burgundy: string,
 }
 
 export default ColoursInterface;

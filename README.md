@@ -10,6 +10,7 @@ Credits to [Brad Traversy](https://github.com/bradtraversy) from [Traversy Media
 * Usage of [React Native Reanimated](https://github.com/software-mansion/react-native-reanimated)
 * Usage of [React Native Draggable FlatList](https://github.com/computerjazz/react-native-draggable-flatlist)
 * Usage of [React Native Swipeable Item](https://github.com/computerjazz/react-native-swipeable-item)
+* Support Dark and Light Themes
 
 ### Setting up the development environment
 https://reactnative.dev/docs/environment-setup

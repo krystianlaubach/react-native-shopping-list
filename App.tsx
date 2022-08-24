@@ -12,7 +12,7 @@ import ShoppingList from './screens/ShoppingList';
 
 const Stack = createNativeStackNavigator();
 
-const App = () => {
+const App: React.FC = (): React.ReactElement => {
     const isDarkMode: boolean = useColorScheme() === 'dark';
     const theme: StyleSheet.NamedStyles<ThemeInterface> = isDarkMode ? DarkTheme : LightTheme;
 

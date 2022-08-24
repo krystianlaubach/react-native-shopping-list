@@ -4,8 +4,9 @@ import DarkTheme from '../assets/styles/DarkTheme';
 import LightTheme from '../assets/styles/LightTheme';
 import ThemeInterface from '../interfaces/ThemeInterface';
 import Header from '../components/Header';
+import List from '../components/List';
 
-const ShoppingList = () => {
+const ShoppingList: React.FC = (): React.ReactElement => {
     const isDarkMode: boolean = useColorScheme() === 'dark';
     const theme: StyleSheet.NamedStyles<ThemeInterface> = isDarkMode ? DarkTheme : LightTheme;
 
@@ -18,6 +19,7 @@ const ShoppingList = () => {
                 iconStyle={ theme.headerIcon }
                 textStyle={ theme.headerText }
             />
+            <List />
         </View>
     );
 };

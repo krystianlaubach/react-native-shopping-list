@@ -12,6 +12,14 @@ interface ThemeInterface {
     header: { [property: string]: string | number },
     headerIcon: { [property: string]: string | number },
     headerText: { [property: string]: string | number },
+    shoppingList: { [property: string]: string | number },
+    item: { [property: string]: string | number },
+    itemActive: { [property: string]: string | number },
+    itemView: { [property: string]: string | number },
+    itemInnerLeftView: { [property: string]: string | number },
+    itemInnerRightView: { [property: string]: string | number },
+    itemText: { [property: string]: string | number },
+    itemIcon: { [property: string]: string | number },
 }
 
 export default ThemeInterface;

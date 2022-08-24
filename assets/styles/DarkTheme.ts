@@ -108,6 +108,53 @@ const DarkTheme: StyleSheet.NamedStyles<ThemeInterface> = StyleSheet.create({
         fontWeight: '600',
         color: Colours.lighter,
     },
+
+    shoppingList: {
+        flex: 1,
+        backgroundColor: Colours.black,
+        paddingTop: 2,
+    },
+
+    item: {
+        paddingTop: 12,
+        paddingBottom: 12,
+        backgroundColor: Colours.darker,
+        marginBottom: 2,
+    },
+
+    itemActive: {
+        opacity: 0.7,
+    },
+
+    itemView: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+    },
+
+    itemInnerLeftView: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        paddingLeft: 12,
+    },
+
+    itemInnerRightView: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+    },
+
+    itemText: {
+        color: Colours.lighter,
+        fontSize: 15,
+        marginLeft: 12,
+        marginRight: 12,
+    },
+
+    itemIcon: {
+        color: Colours.lighter,
+    },
 });
 
 export default DarkTheme;

@@ -12,6 +12,10 @@ Credits to [Brad Traversy](https://github.com/bradtraversy) from [Traversy Media
 * Usage of [React Native Swipeable Item](https://github.com/computerjazz/react-native-swipeable-item)
 * Support Dark and Light Themes
 
+Home Screen                |Shopping List Screen
+:-------------------------:|:-------------------------:
+![HomeScreen](assets/img/HomeScreen.png) | ![ShoppingListScreen](assets/img/ShoppingListScreen.png)
+
 ### Setting up the development environment
 https://reactnative.dev/docs/environment-setup
 
